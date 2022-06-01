@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		@font-face{
+    		font-family: 'Android';
+    		src:url('./fontes/idroid.otf') format('opentype');
+    		font-weight: normal;}
+			@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+			
+ 			
+
+			:root {
+			--cor01: #594940; 
+			--cor02: #DF895E; 
+			--cor03:  #DAB29E; 
+			--cor04:  #593725;
+			--cor05: #A68777; 
+
+			--fonte-destaque:'Bebas Neue', cursive;
+			--fonte-android:'Android',cursive;
+		}
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+			a.externo2 .externo::after{
+              content: '\1F517';
+			   
+			}
+			.externo2{
+				font-family: var(--fonte-android);
+			}
+			
+			header {
+				font-family: var(--fonte-destaque);
+			  background-color: var(--cor04);
+			  padding: 5px;
+			  text-align: center;
+			  font-size: 30px;
+			  color: white;
+			}  
+			main{
+			background-image: linear-gradient(to top , #ce7b4b, #2e1d15);
+			}
+			main article{
+				background-color: #b19e947e;
+			}
+			 article a {
+				background-color: #594940c0;
+				text-decoration: none;
+				border-radius: 8px;
+				color: #f8f0eed3;
+			}
+			article p  :hover {
+				
+				text-decoration: underline;
+				color: #594940;
+			}
+			.foto2{
+				width: 350px;
+				height: 380px;
+				margin: -1.5%;
+				
+				float: right;
+				box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.178);
+			}
+
+			.texto {
+			
+			font-size: 20px;
+			line-height:2rem;
+			text-indent: 2rem;
+			min-width: 300px;
+    		max-width: 1000px;
+    		background-color:#DF895E;
+    		margin: auto;
+    		margin-bottom: 10px;
+    		padding: 1px;
+    		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    		border-bottom-left-radius:10px;
+    		border-bottom-right-radius:10px;
+			  
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			footer {
+			  font-size: 16px;
+			  background-color:#593725;
+			  padding: 2px;
+			  text-align: center;
+			  color: white;
+			}
+			.seta{
+				color: black;
+				font-weight: bold;
+				padding: 3px;
+			}
+
+			
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Conheça um pouco da minha História e minhas metas</h2>
+		</header>
+
+		<section>
+			
+			<main>
+				
+				<article class="texto">
+					<img class="foto2" src="imagens-tarefa-M8/foto2.jpeg" alt="foto Eduardo">
+			
+					<h1>Luiz Eduardo de Souza </h1>
+					<p> Filho de José Luís de Souza e Raquel Aparecida de Souza </p>
+						<p> Nasci em Jardinópolis dia 02 de maio no ano de 1977, estudei na <a href="https://www.google.com/maps/uv?pb=!1s0x94b99333dca53279%3A0xa5fb8e57e4932108!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNo20IPBTBlCLsYFdLBv_B6N1LY7FHYCCbyOkC9%3Dw213-h160-k-no!5sE.EP.S.G%20Prof.%20Pl%C3%ADnio%20Berardo%20-%20Pesquisa%20Google!15sCgIgAQ&imagekey=!1e10!2sAF1QipOJ0ThGf4IPT2nxP_Hn5yucb3S1dWY9lXIJ_lZK&hl=pt-BR&sa=X&ved=2ahUKEwjxhNGywef3AhWGJLkGHbQQCSMQoip6BAgvEAM" target="_blank">Escola.E.P.S.G Professor Plínio Berardo</a> no período matinal, aos 14 anos de idade comecei a trabalhar meio período com meu pai na construção civil como ajudante de servente de pedreiro.</p>
+						
+				  
+				 <p> Sempre fui interessado em tecnologias desde a adolescência,<br> mas nunca tive a oportunidade de ter muito contato com ela, a não ser pelo vídeo game <a href="https://bojoga.com.br/acervo/consoles/geracao-2/supergame-vg-3000/" target="_blank">(Super game da CCE)</a> que minha mãe e minha tia compraram juntas para presentear eu e meu primo que dividimos o mesmo presente com alegria e entusiasmo.</p> 
+				  
+					<p> Acompanhei a evolução dos vídeos games, claro! Que sempre esperando ganhar outro além daquele CCE, que por sua vez já estava ficando ultrapassado por causa do rápida avanço <a class="externo2" href="https://blog.sled.com.br/evolucao-do-uso-da-tecnologia-ao-longo-dos-ultimos-anos/" target="_blank">tecnologico</a>.</p> 
+				  
+				 <p> Mas como a maioria dos adolescentes negros dos meados dos anos 90 não tive muitas oportunidades, pois era de uma família pobre da periferia.</p> 
+				  
+				  As dificuldades e a separação de meus pais, me obrigaram a dar um duro danado para ajudar minha mãe colocar alimento sobre a mesa para alimentar meus outros três irmãos  
+				  
+				 <p> Com o passar do tempo me casei e passei a ser pai então me dediquei ao trabalho, aprendendo a profissão de pedreiro e com a experiência na área da construção fiz um curso técnico e passei a mestre em obras, executando diversos serviços da mesma área.</p> 
+				  
+				 <p> Só depois dos quatros filhos criado, foi no ano de 2013 que consegui adquirir meu primeiro computador um STI Semp Toshiba, e como havia perdido uma boa parte da juventude somente acompanhado de longe a evolução dos games por conta das responsabilidades do lar dediquei alguns anos jogando jogos no PC .</p> 
+				  
+				<p>  Foi então em meio a Pandemia que vi um anúncio sobre Programação e me interessei, desde então comecei a me dedicar para que em um futuro próximo com a ajuda de Deus e com ensino dos Professores da escola EBAC possa me tornar um desenvolvedor Full Stack e trabalhar em uma grande empresa.</p> 
+				  
+				 <p> Tenho aprendido muito com as aulas e com os exercícios propostos pelo plano de ensino da EBAC, já fiz e faço alguns cursos paralelos ao da EBAC para evoluir muito mais conheça um pouco mais da nossa escola clicando no link abaixo.</p>
+				 <p><a class="externo" href="https://ebaconline.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=course_0_all_google_search_all_brand_general&utm_cog%D0%BF%D1%83%D1%82%D1%83%D0%BAntent=c_11725014130%7Cadg_113925699796%7Cad_482740889182%7Cph_kwd-1533690241%7Ckey_ebac%20online%7Cdev_c%7Cpst_%7Crgnid_1031859%7Cplacement_&gclid=Cj0KCQjw4PKTBhD8ARIsAHChzRLXTkjT30LbakHWts96bWuHOapAlucmZ2LYRt_UVOLckmJ6aiBnj0UaAvxmEALw_wcB" target="_blank">conheça mais!</a></p>
+				
+				</article>
+			</main>
+
+
+		</section>
+
+		<footer>
+			<p> Desenvolvido por EDu '(0)lh(0)' Digital</p>
+			<p><a class="seta" href="homepage.html">&lt; &lt;</p></a> <p><a class="seta" href="lista de console.html">&gt;&gt;</a></p>
+		</footer>
+		
+	</body>
+</html>
