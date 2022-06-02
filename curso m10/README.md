@@ -22,6 +22,9 @@ Aquivo B | Versão 1 | Versão 2
 ## Comits
 Irfomação de alteração 
 após testa seu código
+git add *
+git commit -m "mensagem de teste"
+
 
 ## GitFLOW
 Fluxo do GIT 
