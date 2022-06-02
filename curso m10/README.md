@@ -39,6 +39,18 @@ DDO Difinition of Done: critérios de aceite
 versionamento 1.0.0
 
 git checkout -b dev (cria uma branch)
-git checkout master (muda de branch) 
+git checkout master (muda de branch)
+
 ### Merge
 Mescla sde Branch
+Você pode precisar de resolver conflitos manualmente 
+
+git merge main
+
+### Pull Request
+Mesclas de branch no repositório
+Permite código review
+O repositório resolve conflito automaticamente
+
+### configura o GitFlow
+git flow init
