@@ -18,13 +18,22 @@ Aquivo B | Versão 1 | Versão 2
 ## Criar conta no GIT
 
 ## Clonar projeto
+git clone https://github.com/Edusax77/Curso-Frontend.git
 
 ## Comits
 Irfomação de alteração 
 após testa seu código
 git add *
-git commit -m "mensagem de teste"
-
+git commit -m "mensagem "
+git push (enviar  alteração para o repositório GitHub )
+git pull ( puxa / traz alteraçoes do gitHub para sua máquina)
 
 ## GitFLOW
-Fluxo do GIT 
+Fluxo do GIT
+### Branchs
+são ramificações /versão paralelas
+
+main /master (vai para produção, quando o prejeto é publicado)
+develop
+DDO Difinition of Done: critérios de aceite
+versionamento 1.0.0
