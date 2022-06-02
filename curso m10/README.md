@@ -37,3 +37,8 @@ main /master (vai para produção, quando o prejeto é publicado)
 develop
 DDO Difinition of Done: critérios de aceite
 versionamento 1.0.0
+
+git checkout -b dev (cria uma branch)
+git checkout master (muda de branch) 
+### Merge
+Mescla sde Branch
